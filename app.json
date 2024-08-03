@@ -10,19 +10,19 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":"*",
       "required":true
     },
-    "AUTO_READ_STATUS":
+    "AUTO_READ_STATUS": true 
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
       "value":"yes",
       "required":false
-    }, "AUTO_DOWNLOAD_STATUS":
+    }, "AUTO_DOWNLOAD_STATUS":no
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
-      "required":false
+      "required":ya|45 h to 7 यू
     }
     ,
      "PM_PERMIT" :
@@ -51,7 +51,7 @@
       "description":"type yes to put your bot on public mode or no to put it on private mod",
       "value":"yes",
       "required":false
-    }
+    } ki
 	,
     "HEROKU_APY_KEY": {
     "description": "insert your heroku api-key ",
@@ -67,7 +67,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID, the code you received after pairing code",   
-      "value":"",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUUFWOUFFME5iYTZkMEo2SnpwR3JDNEFlTHB0MEFtYWsxcGxWbUpVb3ZsWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidFRDVE54Q2p5TVhGOW81V0E2cGJYanQ0VVZHOGJxSmNudmtuRUNqUkIyOD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ5TEF3aEtxa3J1Qjd5Y2lSV3R1RjBnL0lFeVh6NlRaMnJVSHBoMHRxUGx3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJiOHgwQU9wSkVVUlpMZGxCYmJNSGxNRjZjUmtDN2ROaXJ1UVc4MTZHR0MwPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlVKeUd0Wm9ldnhTTjl2ZTZGUUQxa3JITDFLWEFRVWNZRm0waGIySGpyRTg9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImpxZHBnVmFKSkthOVR5NTZZMlNlbFp1SG95Q2FNdUtuY3I3c0ErSitOMms9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZUkvU2MzM0NYcFlvVmdHY0U1MDhJR3lybFVPT3IrcUpsZ0hZdzZmMS9rVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYXUwelVSZU93Y2F1NDdKT2YrNEVmclpqUmFaeHhtT2h6WlQ5aEwwaHFpYz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlhSd1Zrbk5peVNVSUJ6cFVVZExRZlc2ZXc0aDYyMmQyb2MzTUY4ak9YTENNcjc5Y0prT3FtamFPMlRLSERJMWVMK3NQQVdET1V1L2ZpblZOTVNzcER3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjgsImFkdlNlY3JldEtleSI6Ikk3Nlp1d0VpL3JuNDgyMXBKZjIrazhmSHZJVTZnNDhXaVlHZkN2eU5BWnc9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IndyNlBadUxZUzJXQzlPcU5QbUE1REEiLCJwaG9uZUlkIjoiM2VjNmMxMjAtZWY5OS00OTljLThlOGUtNzNkMThmYjNjYTk4IiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ild1anJOdVJkQTJhNGdwRGtXQzAzbjZWQjRTZz0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIxRWdaUjVoUG93ZHR6Nlo2N1ZoUE1KZDNjMEE9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiNEtRNjI0VEYiLCJtZSI6eyJpZCI6IjkxNjI2MDI3Mzg2MzozOUBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiLwnZqz8J2aqiDwnZCS8J2arvCdkJTwnZqp8J2arvCdmqvwnZqzIPCdkIrwnZCU8J2as/CdmqvwnZqqIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNJS0I0UFFERVAzUnVyVUdHQmNnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJBVzNBYks5WGM1NXZQVjIvdWR2RGgyTDBaSUlXc0VCS253QThMSjhKbjBRPSIsImFjY291bnRTaWduYXR1cmUiOiJTMVVSbENBSWJiUHpiWHBSdEVTL0xRMUw3Z1lPN2FGb0dROWFiZDJRcFVyMzBBenpza0dEN0dyVktXZXBmQXM1UlhUVGpwMEtnWHQ2QmdIZm5xSWVDZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoibkg0dklEVytxTS9LZEVhY1IyZDEvVUNUYVhHQWkrelUvSUpRMDFIeVV3L3JHSVRuL0hsVlJnaGZlMUZXa0krUENLM3UyVlVmRGtzdTV6MzNlTkFrQlE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI5MTYyNjAyNzM4NjM6MzlAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCUUZ0d0d5dlYzT2ViejFkdjduYnc0ZGk5R1NDRnJCQVNwOEFQQ3lmQ1o5RSJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMjcyMjU3MCwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFBZ2cifQ==",
       "required":true
       
     },
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
+    "value": "MISTER_SHUBHAM"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254739937062,254710772666"
+    "value": "916260273863,916260273863"
   },
     "WARN_COUNT":
   {
@@ -99,7 +99,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",  
+    "value":"recording",  
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
